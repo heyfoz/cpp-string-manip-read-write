@@ -1,11 +1,11 @@
 // Source(s) of logic assistance:  
 // Gaddis, T. (2018). Starting out with C++:
 // From control structures through objects. Pearson. 
-// Inserting chars into a string
+// Inserting chars into a string:
 // https://stackoverflow.com/questions/3223302/c-insert-char-to-a-string
-// Reading line by line with fstream
+// Reading line by line with fstream:
 // https://copyprogramming.com/guide/how-to-read-file-line-by-line-using-for-loop-in-c
-// Removing substrings
+// Removing substrings:
 // https://thispointer.com/how-to-remove-substrings-from-a-string-in-c/
 
 #include <iostream> // To use cin/cout

@@ -10,10 +10,8 @@
 
 #include <iostream> // To use cin/cout
 #include <iomanip>  // To access setw for output width
-#include <cmath>    // To access power function for calculations
 #include <string>   // To implement to_string function
 #include <fstream>  // To utilize ifstream, ofstream, fstream
-#include <ctime>    // Access random number generator
 using namespace std;
 
 // Global Constant Initialization

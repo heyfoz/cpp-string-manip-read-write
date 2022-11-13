@@ -3,4 +3,4 @@ The String Manipulator Read/Write Functions Program (C++) reads a .txt file cont
 
 cout is utilized to print to the console, while an fstream object fout is used to print to the .txt file.
 
-Link to .cpp file: <a href="">String Manipulator Read/Write Functions C++ Program</a>
+Link to .cpp file: <a href="https://github.com/ffm5113/cpp_string_manip_read_write/blob/main/StringManipReadWrite.cpp">String Manipulator Read/Write Functions C++ Program</a>

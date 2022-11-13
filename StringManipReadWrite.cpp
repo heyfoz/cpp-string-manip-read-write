@@ -102,6 +102,7 @@ int main()
 		state = extractField(line);
 		zip = line;
 		line = "";
+		
 		// Fix variable formatting
 		fullName = fixName(fullName);
 		sSN = fixSSN(sSN);
@@ -109,6 +110,7 @@ int main()
 		address = fixAddress(address);
 		city = fixCity(city);
 		state = fixState(state);
+		
 		// Buildline concatenates in reverse order
 		buildLine(line, state);
 		buildLine(line, city);
@@ -117,6 +119,7 @@ int main()
 		buildLine(line, sSN);
 		buildLine(line, fullName);
 		line += zip;
+		
 		// Print formatted line on each iteration
 		cout << line << endl;
 		fout << line << endl;
@@ -125,6 +128,7 @@ int main()
 		<< endl << "Thanks for choosing Forrest's Green Industries."
 		<< endl << "Until next time!" << endl;
 	fout << endl << "(c) 2022 Forrest's Green Industries";
+	
 	// Close file stream objects
 	fin.close();
 	fout.close();
